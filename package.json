@@ -1,0 +1,22 @@
+{
+  "name": "fastity-api",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^9.0.4",
+    "@fastify/postgres": "^5.2.0",
+    "@prisma/client": "^5.3.0",
+    "bcrypt": "^5.1.1",
+    "fastify": "^4.23.2",
+    "fastify-jwt": "^4.2.0",
+    "fastify-swagger": "^5.2.0",
+    "fastify-zod": "^1.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "zod": "^3.22.2",
+    "zod-to-json-schema": "^3.21.4"
+  }
+}
